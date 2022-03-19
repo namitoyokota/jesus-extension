@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Jesus Inspired",
+  "version": "0.1",
+  "description": "Open new tab with an inspiration from the Word of God.",
+  "author": "Namito Yokota",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+   },
+  "content_security_policy": "script-src 'self' https://code.jquery.com; object-src 'self'"
+ }
